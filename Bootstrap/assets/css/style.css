@@ -1,0 +1,25 @@
+.navbar{
+    background: #ff3162 !important;
+}
+.navbar-brand{
+    font-weight: 800 !important;
+    font-size: 30px;
+    color: #3D0C11 !important;
+    letter-spacing: 2px;
+    /* font-family: 'Cinzel', serif; */
+}
+.navbar-brand::after{
+    content: 'EXPLORER';
+    color: aqua;
+
+}
+.nav-item{
+    font-size: large;
+
+}
+.nav-link{
+    color: white !important;
+}
+.nav-link:hover{
+    color: #3D0C11 !important;
+}
