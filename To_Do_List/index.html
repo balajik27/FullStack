@@ -35,16 +35,7 @@
               </div>
             </div>
             <div id="addContent" class="p-2">
-              <!-- <div class="row toDoFullContent box-border py-3 mb-1">
-              <div class="col-xl-1 col-2 forRadio" onclick="changeStatus(event)">
-                <div class="unchecked"></div>
-              </div>
-              <div class="col-xl-9  col-6">
-                <p class="toDoContent text-break mb-1" onclick="changeStatusUsingPara(event)">' + innercontent + '</p>
-              </div>
-              <div class="col-xl-1  col-2 forRadio"><i onclick="edit(event)" class="fa-solid fa-pen-to-square"></i></div>
-              <div class="col-xl-1  col-2 forRadio"><i onclick="deleteNote(event)" class="fa-solid fa-trash"></i></div>
-            </div> -->
+            
             </div>
           </div>
         </div>
@@ -59,12 +50,7 @@
 </html>
 <script>
 
-  function changestyle(event) {
-
-    let input_text = event.target;
-    input_text
-
-  }
+ 
   var inputVal = document.getElementById("getinput");
   var main = document.getElementById("addContent");
 
@@ -103,7 +89,7 @@
   }
   function deleteNote(event) {
     event.target.parentElement.parentElement.remove();
-    document.getElementById("getinput").focus();
+   
   }
 
   const changeStatus = (event) => {
@@ -133,13 +119,5 @@
 
 
   }
-  // const changeStatusBtn = (event)=>{
-  //   let radioBtn = event.target.className;
-  //   if(radioBtn == "checked"){
-  //     radioBtn = "unchecked";
-  //   }
-  //   else{
-  //     radioBtn = "checked";
-  //   }
-  // }
+
 </script>
